@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import ContactList from './ContactList'
 
 
-ReactDOM.render(<App />,
+ReactDOM.render(<ContactList />,
 document.getElementById('root'));
 
 registerServiceWorker();

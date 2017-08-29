@@ -8,6 +8,7 @@ class App extends React.Component {
     return (
       <div className="root">
         <Contact fname="Miguel" lname="Hernandez" phone="(252) 452-5257"/>
+        <Contact fname="Jon" lname="Hernandez" phone="(252) 452-5257"/>
       </div>
     );
   }

@@ -17,12 +17,12 @@ class ContactList extends React.Component {
     }
   ];
 
-  const contactsLoop = users.map(function(user){
-    return <ContactList fname={user.fname} lname={user.lname} phone={user.phone} />
+  const contactComponets = users.map(function(user){
+    return <Contact fname={user.fname} lname={user.lname} phone={user.phone} />
   })
   return (
   <div>
-    {contactsLoop}
+    {contactComponets}
   </div>
 );
 }
