@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Contact from './Contact';
+import Button from './Buttons'
 
 class ContactList extends React.Component {
   render(){
@@ -11,10 +12,15 @@ class ContactList extends React.Component {
       phone:"33333333"
     },
     {
-      fname:"Teia",
-      lname:"MCgee",
+      fname:"Chris",
+      lname:"Hamilton",
       phone:"55555555"
-    }
+    },
+    {
+      fname:"Malik",
+      lname:"Robinson",
+      phone:"4444444"
+    },
   ];
 
   const contactComponets = users.map(function(user){
