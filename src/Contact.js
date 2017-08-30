@@ -6,7 +6,6 @@ function Contact(props) {
     <div>
       <h1>Hello World {props.fname}</h1>
       <h2> You need to contact {props.fname} {props.lname} at {props.phone}</h2>
-
   </div>
   )
 }

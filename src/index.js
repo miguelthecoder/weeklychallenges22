@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import ContactList from './ContactList'
-import Button from './Buttons'
+import Buttons from './Buttons'
 
-
-ReactDOM.render(<ContactList />,
+//  for challenges very easy to hard uncomment code bellow
+// // ReactDOM.render(<ContactList />,
+// // document.getElementById('root'));
+ReactDOM.render(<Buttons />,
 document.getElementById('root'));
+
 
 registerServiceWorker();

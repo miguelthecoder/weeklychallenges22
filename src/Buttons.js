@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import ContactList from './ContactList'
 import Contact from './Contact';
 
 

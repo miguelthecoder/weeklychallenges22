@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Contact from './Contact';
-import Button from './Buttons'
+
 
 class ContactList extends React.Component {
   render(){
